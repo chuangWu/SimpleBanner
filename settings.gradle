@@ -1,0 +1,1 @@
+include ':simplebanner1', ':simplebanner2', ':dnwbanner', ':simplebanner'

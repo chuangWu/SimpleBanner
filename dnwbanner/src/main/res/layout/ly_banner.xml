@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <cn.chuangblog.dnwbanner.banner.CommonSlideBanner
+        android:id="@+id/slider_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:slider_banner_indicator="@+id/banner_indicator"
+        app:slider_banner_pager="@+id/banner_pager">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <cn.chuangblog.dnwbanner.banner.DotView
+            android:id="@+id/banner_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            app:dot_radius="4dp"
+            app:dot_selected_color="0xffffffff"
+            app:dot_span="12dp"
+            app:dot_unselected_color="0x80ffffff">
+        </cn.chuangblog.dnwbanner.banner.DotView>
+    </cn.chuangblog.dnwbanner.banner.CommonSlideBanner>
+
+</LinearLayout>

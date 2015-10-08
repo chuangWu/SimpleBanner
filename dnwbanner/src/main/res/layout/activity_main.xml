@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="Banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner1"/>
+
+    <Button
+        android:onClick="Banner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner2"/>
+
+    <Button
+        android:onClick="Banner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner3"/>
+
+    <include layout="@layout/ly_banner"/>
+
+</LinearLayout>
